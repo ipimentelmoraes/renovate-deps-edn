@@ -1,0 +1,7 @@
+{:paths     ["src"]
+ :deps      {org.clojure/clojure        {:mvn/version "1.11.2"}
+             i80.commons/authnz         {:mvn/version "7.15.0"}}
+
+ :mvn/repos {"central" {:url "https://repo1.maven.org/maven2/"}
+             "clojars" {:url "https://repo.clojars.org/"}
+             "release" {:url "s3://180s-maven-repo/release?region=us-east-2"}}}
