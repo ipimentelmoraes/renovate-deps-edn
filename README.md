@@ -1,4 +1,4 @@
-# XXX - [deps-edn] Incorrect resolution of S3 repository URL when there are query params
+# Discussion 36784 - [deps-edn] Incorrect resolution of S3 repository URL when there are query params
 
 ## Current behavior
 
@@ -99,4 +99,4 @@ The dependency `dynamodb-local` is not of my authorship, it is from https://gith
 
 ## Link to the Renovate issue or Discussion
 
-Put your link to the Renovate issue or Discussion here.
+https://github.com/renovatebot/renovate/discussions/36784
