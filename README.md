@@ -91,6 +91,12 @@ And the Github action step is configured as such:
 
 Look for the packages in the correct S3 path even when the repository region is configured via query param in the `deps.edn`.
 
+## Disclaimers
+
+The bucket `ipim-test-maven` is public, but AWS credentials are still necessary to run Renovate and to download the clojure dependencies.
+
+The dependency `dynamodb-local` is not of my authorship, it is from https://github.com/dmcgillen/clj-dynamodb-local. I merely put it into a public s3 with another group to illustrate the pathing problem and will delete it as soon as possible.
+
 ## Link to the Renovate issue or Discussion
 
 Put your link to the Renovate issue or Discussion here.
